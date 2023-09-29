@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Edubridge application test suite">
+    <test  name="application test cases">
+        <classes>
+            <class name="com.edubridge.test.HomePageTest">
+                <methods>
+                    <include name="verifyHomepageTitle"/>
+                    <include name="verifyCorrectUsername"/>
+                    <include name="VerifyCalendarPage"/>
+                    <include name="VerifyCoursePage"/>
+                </methods>
+            </class>
+            <class name="com.edubridge.test.LoginPageTest">
+                <methods>
+                    <include name="loginTest"/>
+                    <include name="loginPageTitleTest"/>
+                    <include name="EduLogoTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Edubridge application test suite]" guice-stage="DEVELOPMENT">
+  <test name="application test cases(failed)">
+    <classes>
+      <class name="com.edubridge.test.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="VerifyCalendarPage"/>
+          <include name="teardown"/>
+          <include name="VerifyCoursePage"/>
+        </methods>
+      </class> <!-- com.edubridge.test.HomePageTest -->
+    </classes>
+  </test> <!-- application test cases(failed) -->
+</suite> <!-- Failed suite [Edubridge application test suite] -->

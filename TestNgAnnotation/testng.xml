@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--    Test hierarchy : suite->test->classes->class->methods      -->
+<suite name="All Test Suite">
+    <test name="AnnotationDemo">
+        <classes>
+            <class name="org.example.TC1">
+                <methods>
+                    <include name="testcase1"/>
+                    <include name="testcase2"/>
+                </methods>
+            </class>
+            <class name="org.example.TC2">
+                <methods>
+                    <include name="testcase3"/>
+                    <include name="testcase4"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
